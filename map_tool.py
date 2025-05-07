@@ -106,6 +106,7 @@ def map_tool(prompt: str, api_key: str, segmenter: str = "ssa") -> Dict:
     Args:
         prompt (str): Description of the game map.
         api_key (str): API key for both generation and segmentation.
+        segmenter (str): either ssa or sam2
 
     Returns:
         Dict: Combined output from generation and segmentation.
