@@ -1,0 +1,5 @@
+replicate
+numpy
+pycocotools
+requests
+Pillow
